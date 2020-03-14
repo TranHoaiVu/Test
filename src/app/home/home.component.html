@@ -1,0 +1,7 @@
+<wj-flex-grid #flex [itemsSource]="products" (initialized)="initializeGrid(flex)">
+    <wj-flex-grid-column binding="name" header="name" [width]="150"></wj-flex-grid-column>
+    <wj-flex-grid-column binding="description" header="description" [width]="200"></wj-flex-grid-column>
+    <wj-flex-grid-column binding="price" header="price" [width]="150"></wj-flex-grid-column>
+    <wj-flex-grid-column binding="quantity" header="quantity" [width]="150"></wj-flex-grid-column>
+    <wj-flex-grid-column binding="date" header="date" [width]="150"></wj-flex-grid-column>
+</wj-flex-grid>
