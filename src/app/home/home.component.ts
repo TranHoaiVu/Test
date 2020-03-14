@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
         this.products.forEach(item => {
             item.date = this.convertDate(item.date);
             let abc = "";
-            let a5;
+            let a = "m bi dien a";
         });
     }
     initializeGrid(flex: wjcGrid.FlexGrid) {
