@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChangeTextDirective } from './change-text.directive';
 import { SqrtPige } from './app.sqrt';
+import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
@@ -35,7 +36,8 @@ import { ContactComponent } from './contact/contact.component';
     AppRoutingModule,
     WjGridModule,
     WjChartModule,
-    WjInputModule
+    WjInputModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

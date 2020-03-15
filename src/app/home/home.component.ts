@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
     private abc = null;
     private products: any = (data as any).default;
     private nameList: any = [];
+    private name = "";
     ngOnInit() {
         this.products.forEach(item => {
             item.date = this.convertDate(item.date);
