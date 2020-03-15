@@ -22,24 +22,24 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [
-    SqrtPige,
-    AppComponent,
-    ChangeTextDirective,
-    NavComponent,
-    HomeComponent,
-    AboutComponent,
-    ContactComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    WjGridModule,
-    WjChartModule,
-    WjInputModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        SqrtPige,
+        AppComponent,
+        ChangeTextDirective,
+        NavComponent,
+        HomeComponent,
+        AboutComponent,
+        ContactComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        WjGridModule,
+        WjChartModule,
+        WjInputModule,
+        FormsModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
